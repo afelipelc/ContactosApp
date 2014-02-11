@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar" />
+
+    <style name="estilotitulo">
+	    <item name="android:textColor">#4D4B4C</item>
+	    <item name="android:textSize">14sp</item>
+	     <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="estilolabel">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+    <style name="estilolabeldetalles">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+    <style name="labelresalto">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

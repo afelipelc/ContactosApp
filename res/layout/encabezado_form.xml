@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondoencabezado"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="3dp" >
+
+    <ImageButton
+        android:id="@+id/CancelarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Datos del Contacto"
+        android:textAppearance="@style/estilotitulo" />
+
+    <ImageButton
+        android:id="@+id/GuardarBtn"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@android:drawable/ic_menu_save" />
+
+</LinearLayout>

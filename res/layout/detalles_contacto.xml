@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoapp"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/encabezado" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/estilolabeldetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
+
+        <TextView
+            android:id="@+id/NombreLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del contacto"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/estilolabeldetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos" />
+
+        <TextView
+            android:id="@+id/ApellidosLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos del contacto"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/estilolabeldetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/EmailLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email del contacto"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/estilolabeldetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfono" />
+
+        <TextView
+            android:id="@+id/TelefonoLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfono del contacto"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="4dp" >
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/labelresalto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acciones disponibles" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp" >
+
+                <ImageButton
+                    android:id="@+id/EditarBtn"
+                    android:layout_width="48dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <ImageButton
+                    android:id="@+id/EmailBtn"
+                    android:layout_width="48dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_menu_send" />
+
+                <ImageButton
+                    android:id="@+id/LlamarBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/sym_action_call" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

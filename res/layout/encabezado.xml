@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/fondoencabezado"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="3dp" >
+
+        <ImageView
+            android:id="@+id/LogoImg"
+            android:layout_width="23dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".09"
+            android:src="@drawable/logotec_30" />
+
+        <TextView
+            android:id="@+id/NombreAppTw"
+            style="@style/estilotitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Contactos App" />
+
+        <ImageButton
+            android:id="@+id/AgregarCImgb"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:src="@android:drawable/ic_input_add" />
+     
+    </LinearLayout>
+
+</LinearLayout>
